@@ -89,7 +89,21 @@ example
 Launch Doxygen and open `Doxyfile - 1 DLL-InternalHex` by `File` -> `Open`.  
 ※
 To know what the differences of this configuration and default configuration,  
-check diff `Doxyfile - 0 factory default` and `Doxyfile - 1 DLL-InternalHex`.
+check diff `Doxyfile - 0 factory default` and `Doxyfile - 1 DLL-InternalHex`.  
+
+`<TIPS>`  
+Especially in Visual Studio, Include directories can get by following.  
+
+Solution Explorer -> Right click solution name -> select `Property`  
+![](assets/images/2020-07-07-22-54-39.png)  
+
+VC++ Directory -> Include Directories -> Select `<Edit...>`  
+![](assets/images/2020-07-07-22-55-31.png)  
+
+`Evaluated Values` is indicates Include Directories like as follow.  
+![](assets/images/2020-07-07-22-57-17.png)
+
+`</TIPS>`  
 
 Select `Run` Tab -> `Run doxygen`  
 
